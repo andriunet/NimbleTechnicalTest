@@ -10,12 +10,17 @@
 		669206A62AF3E17500723DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669206A52AF3E17500723DAC /* AppDelegate.swift */; };
 		669206A82AF3E17500723DAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669206A72AF3E17500723DAC /* SceneDelegate.swift */; };
 		669206AA2AF3E17500723DAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669206A92AF3E17500723DAC /* ViewController.swift */; };
-		669206AD2AF3E17500723DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669206AB2AF3E17500723DAC /* Main.storyboard */; };
+		669206AD2AF3E17500723DAC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669206AB2AF3E17500723DAC /* Login.storyboard */; };
 		669206AF2AF3E17800723DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669206AE2AF3E17800723DAC /* Assets.xcassets */; };
 		669206B22AF3E17800723DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669206B02AF3E17800723DAC /* LaunchScreen.storyboard */; };
 		669206BD2AF3E17800723DAC /* NimbleTechnicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669206BC2AF3E17800723DAC /* NimbleTechnicalTestTests.swift */; };
 		669206C72AF3E17800723DAC /* NimbleTechnicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669206C62AF3E17800723DAC /* NimbleTechnicalTestUITests.swift */; };
 		669206C92AF3E17800723DAC /* NimbleTechnicalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669206C82AF3E17800723DAC /* NimbleTechnicalTestUITestsLaunchTests.swift */; };
+		669206DA2AF3EB9000723DAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669206D92AF3EB9000723DAC /* LoginViewController.swift */; };
+		669206DD2AF3F17D00723DAC /* CornerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669206DC2AF3F17D00723DAC /* CornerButton.swift */; };
+		669206DF2AF3F1E100723DAC /* CornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669206DE2AF3F1E100723DAC /* CornerTextField.swift */; };
+		669206E12AF3FABF00723DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 669206E02AF3FABF00723DAC /* Main.storyboard */; };
+		CE9CEFE81614746C0FE2F789 /* Pods_NimbleTechnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC469F824898D47B1CAE5648 /* Pods_NimbleTechnicalTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		498F78E15E85233F897B7EB7 /* Pods-NimbleTechnicalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleTechnicalTest.release.xcconfig"; path = "Target Support Files/Pods-NimbleTechnicalTest/Pods-NimbleTechnicalTest.release.xcconfig"; sourceTree = "<group>"; };
 		669206A22AF3E17500723DAC /* NimbleTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimbleTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669206A52AF3E17500723DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		669206A72AF3E17500723DAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		669206A92AF3E17500723DAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		669206AC2AF3E17500723DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		669206AC2AF3E17500723DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		669206AE2AF3E17800723DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		669206B12AF3E17800723DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		669206B32AF3E17800723DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		669206C22AF3E17800723DAC /* NimbleTechnicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NimbleTechnicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669206C62AF3E17800723DAC /* NimbleTechnicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleTechnicalTestUITests.swift; sourceTree = "<group>"; };
 		669206C82AF3E17800723DAC /* NimbleTechnicalTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NimbleTechnicalTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		669206D92AF3EB9000723DAC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		669206DC2AF3F17D00723DAC /* CornerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerButton.swift; sourceTree = "<group>"; };
+		669206DE2AF3F1E100723DAC /* CornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerTextField.swift; sourceTree = "<group>"; };
+		669206E02AF3FABF00723DAC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BC469F824898D47B1CAE5648 /* Pods_NimbleTechnicalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NimbleTechnicalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECFA356B355AF902B87C7BA0 /* Pods-NimbleTechnicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NimbleTechnicalTest.debug.xcconfig"; path = "Target Support Files/Pods-NimbleTechnicalTest/Pods-NimbleTechnicalTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9CEFE81614746C0FE2F789 /* Pods_NimbleTechnicalTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +96,8 @@
 				669206BB2AF3E17800723DAC /* NimbleTechnicalTestTests */,
 				669206C52AF3E17800723DAC /* NimbleTechnicalTestUITests */,
 				669206A32AF3E17500723DAC /* Products */,
+				8375288766F3B65D2AB3144B /* Pods */,
+				AC9B4D125F258D70A6D8446E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +114,13 @@
 		669206A42AF3E17500723DAC /* NimbleTechnicalTest */ = {
 			isa = PBXGroup;
 			children = (
+				669206DB2AF3F15100723DAC /* CustomView */,
+				669206D82AF3EB7800723DAC /* ViewControllers */,
+				669206D52AF3EA1D00723DAC /* Storyboards */,
 				669206A52AF3E17500723DAC /* AppDelegate.swift */,
 				669206A72AF3E17500723DAC /* SceneDelegate.swift */,
 				669206A92AF3E17500723DAC /* ViewController.swift */,
-				669206AB2AF3E17500723DAC /* Main.storyboard */,
 				669206AE2AF3E17800723DAC /* Assets.xcassets */,
-				669206B02AF3E17800723DAC /* LaunchScreen.storyboard */,
 				669206B32AF3E17800723DAC /* Info.plist */,
 			);
 			path = NimbleTechnicalTest;
@@ -127,6 +143,50 @@
 			path = NimbleTechnicalTestUITests;
 			sourceTree = "<group>";
 		};
+		669206D52AF3EA1D00723DAC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				669206B02AF3E17800723DAC /* LaunchScreen.storyboard */,
+				669206AB2AF3E17500723DAC /* Login.storyboard */,
+				669206E02AF3FABF00723DAC /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		669206D82AF3EB7800723DAC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				669206D92AF3EB9000723DAC /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		669206DB2AF3F15100723DAC /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				669206DC2AF3F17D00723DAC /* CornerButton.swift */,
+				669206DE2AF3F1E100723DAC /* CornerTextField.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8375288766F3B65D2AB3144B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECFA356B355AF902B87C7BA0 /* Pods-NimbleTechnicalTest.debug.xcconfig */,
+				498F78E15E85233F897B7EB7 /* Pods-NimbleTechnicalTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC9B4D125F258D70A6D8446E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC469F824898D47B1CAE5648 /* Pods_NimbleTechnicalTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 669206CC2AF3E17800723DAC /* Build configuration list for PBXNativeTarget "NimbleTechnicalTest" */;
 			buildPhases = (
+				235C41748A4D23D37BAAD578 /* [CP] Check Pods Manifest.lock */,
 				6692069E2AF3E17500723DAC /* Sources */,
 				6692069F2AF3E17500723DAC /* Frameworks */,
 				669206A02AF3E17500723DAC /* Resources */,
+				3D073EEDA439084C94D1C260 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +295,8 @@
 			files = (
 				669206B22AF3E17800723DAC /* LaunchScreen.storyboard in Resources */,
 				669206AF2AF3E17800723DAC /* Assets.xcassets in Resources */,
-				669206AD2AF3E17500723DAC /* Main.storyboard in Resources */,
+				669206AD2AF3E17500723DAC /* Login.storyboard in Resources */,
+				669206E12AF3FABF00723DAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,12 +316,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		235C41748A4D23D37BAAD578 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NimbleTechnicalTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D073EEDA439084C94D1C260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NimbleTechnicalTest/Pods-NimbleTechnicalTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NimbleTechnicalTest/Pods-NimbleTechnicalTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NimbleTechnicalTest/Pods-NimbleTechnicalTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6692069E2AF3E17500723DAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669206DF2AF3F1E100723DAC /* CornerTextField.swift in Sources */,
+				669206DA2AF3EB9000723DAC /* LoginViewController.swift in Sources */,
 				669206AA2AF3E17500723DAC /* ViewController.swift in Sources */,
+				669206DD2AF3F17D00723DAC /* CornerButton.swift in Sources */,
 				669206A62AF3E17500723DAC /* AppDelegate.swift in Sources */,
 				669206A82AF3E17500723DAC /* SceneDelegate.swift in Sources */,
 			);
@@ -297,12 +405,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		669206AB2AF3E17500723DAC /* Main.storyboard */ = {
+		669206AB2AF3E17500723DAC /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				669206AC2AF3E17500723DAC /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		669206B02AF3E17800723DAC /* LaunchScreen.storyboard */ = {
@@ -432,6 +540,7 @@
 		};
 		669206CD2AF3E17800723DAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECFA356B355AF902B87C7BA0 /* Pods-NimbleTechnicalTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +554,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +570,7 @@
 		};
 		669206CE2AF3E17800723DAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498F78E15E85233F897B7EB7 /* Pods-NimbleTechnicalTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +584,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
